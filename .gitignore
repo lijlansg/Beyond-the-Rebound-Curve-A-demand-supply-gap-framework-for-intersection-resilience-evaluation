@@ -1,0 +1,6 @@
+.privacy_cleanup/
+.data-downloads/
+__pycache__/
+*.partial
+*.zip
+**/processed_trajectory_data_with_lane_match.csv

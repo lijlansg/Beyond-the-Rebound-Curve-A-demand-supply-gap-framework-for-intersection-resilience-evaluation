@@ -1,0 +1,667 @@
+{
+  "schema_version": 1,
+  "repository": "lijlansg/Beyond-the-Rebound-Curve-A-demand-supply-gap-framework-for-intersection-resilience-evaluation",
+  "release_tag": "data-v1.0",
+  "license": "CC-BY-NC-4.0",
+  "files": [
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Baseline demand surge/16-45.csv",
+      "bytes": 1039,
+      "storage": "git",
+      "sha256": "45f0dc96dcb468c0c36bd9833251af23a2ace0b72181d26b5731c05793f3d575"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Baseline demand surge/17-45.csv",
+      "bytes": 1020,
+      "storage": "git",
+      "sha256": "a3dc08ae14df98f54f35c54c273829f1384e92a79215f24b8d591b62bd216830"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Baseline demand surge/18-45.csv",
+      "bytes": 1001,
+      "storage": "git",
+      "sha256": "735b3d76412d4954d0ea48eb6301f112e1e8ccf24c68fc7036d12618eac1bc5f"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Baseline demand surge/19-45.csv",
+      "bytes": 1022,
+      "storage": "git",
+      "sha256": "4b497d0d154d3ff4ecf208506bc21a23f0de567fdb5ff7c4ada70626199be4e6"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Baseline demand surge/20-45.csv",
+      "bytes": 968,
+      "storage": "git",
+      "sha256": "f0e9f1ccb8365b760f664b2d2bc12263983f6fe761611ba86a96a1f52ce5de7d"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Baseline demand surge/21-45.csv",
+      "bytes": 1010,
+      "storage": "git",
+      "sha256": "5e51749101384397992a25bc5291d14eb238b6b785a0fd60bb27a2f277c147c7"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Faster signal update/16-45.csv",
+      "bytes": 1033,
+      "storage": "git",
+      "sha256": "df26a1d5e759c6b17d83db4c98ffbf0a8991c31327b415e39b970a8b0116597c"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Faster signal update/17-15.csv",
+      "bytes": 1037,
+      "storage": "git",
+      "sha256": "63f99e724bf1daebc44effb77f36605ed9f1cb01aec0d2801513f9727a6cf5d4"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Faster signal update/17-45.csv",
+      "bytes": 1006,
+      "storage": "git",
+      "sha256": "05dc3a4963bc5857dee5910d1c574486aefa5d101ee5ded03120b9e56f798c2d"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Faster signal update/18-15.csv",
+      "bytes": 1008,
+      "storage": "git",
+      "sha256": "92b5fc6d754a6c38cf490af2f9e9b00402b9988823a7f1105e177225b2c2208a"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Faster signal update/18-45.csv",
+      "bytes": 1004,
+      "storage": "git",
+      "sha256": "9d0a0c540424ea36db707b8d0fab8c1c85e20cf2d8b06300b19a60e34dead45a"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Faster signal update/19-15.csv",
+      "bytes": 1003,
+      "storage": "git",
+      "sha256": "912e1e52151bea41751788555c9fc6ab806f6425f40dbe59a8d9292b2311d623"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Faster signal update/19-45.csv",
+      "bytes": 1022,
+      "storage": "git",
+      "sha256": "5f859eab82bea779164bca5e4ab80de6343e3c5de5e813723304bb1305d5e88a"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Faster signal update/20-15.csv",
+      "bytes": 1006,
+      "storage": "git",
+      "sha256": "2431def64b73318926320cb6c85ae6a111a62d5784db7eb8d9a1536c268abc08"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Faster signal update/20-45.csv",
+      "bytes": 1009,
+      "storage": "git",
+      "sha256": "78bbc93ba588048f544d70a3dadd51ace7de6090c658a8afc71b45248f075b22"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Faster signal update/21-15.csv",
+      "bytes": 1010,
+      "storage": "git",
+      "sha256": "5e51749101384397992a25bc5291d14eb238b6b785a0fd60bb27a2f277c147c7"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Lane reallocation/16-45.csv",
+      "bytes": 1024,
+      "storage": "git",
+      "sha256": "39a4ba5b4a871070cd05753f10bebd43d5c7720024d4ac5c1414a8fc510789b2"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Lane reallocation/17-45.csv",
+      "bytes": 1050,
+      "storage": "git",
+      "sha256": "4ffbb2de729871333a8cd355c76f727b93898820e5aac1733108977e680d0d04"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Lane reallocation/18-45.csv",
+      "bytes": 1033,
+      "storage": "git",
+      "sha256": "97e3acf63eca15b03eccdb495275317ce98cf59db0f0654a434bf1a8fc0a9c0f"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Lane reallocation/19-45.csv",
+      "bytes": 1047,
+      "storage": "git",
+      "sha256": "7c07706b0cb767d036f077e306711f41312ec7c57b4a3d7659090ce7ee981a4b"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Lane reallocation/20-45.csv",
+      "bytes": 1033,
+      "storage": "git",
+      "sha256": "9a38c8bfa4fd27057f2ed266eb7f0c0b23600dfacf20548ed9229e2079fa6b37"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/Lane reallocation/21-45.csv",
+      "bytes": 1004,
+      "storage": "git",
+      "sha256": "527f2d02db9d5bb919541eaf6805e311896d7bafbabfd34b9cc3424113f27098"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/proactive signal preparation/16-45.csv",
+      "bytes": 1055,
+      "storage": "git",
+      "sha256": "2399a2212d4e5fabe0485349ac99ded8ea58a567e47f924c6ffdca55b65b5f68"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/proactive signal preparation/17-45.csv",
+      "bytes": 1020,
+      "storage": "git",
+      "sha256": "a3dc08ae14df98f54f35c54c273829f1384e92a79215f24b8d591b62bd216830"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/proactive signal preparation/18-45.csv",
+      "bytes": 1001,
+      "storage": "git",
+      "sha256": "735b3d76412d4954d0ea48eb6301f112e1e8ccf24c68fc7036d12618eac1bc5f"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/proactive signal preparation/19-45.csv",
+      "bytes": 1022,
+      "storage": "git",
+      "sha256": "4b497d0d154d3ff4ecf208506bc21a23f0de567fdb5ff7c4ada70626199be4e6"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/proactive signal preparation/20-45.csv",
+      "bytes": 968,
+      "storage": "git",
+      "sha256": "f0e9f1ccb8365b760f664b2d2bc12263983f6fe761611ba86a96a1f52ce5de7d"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/Siganal scheme/proactive signal preparation/21-45.csv",
+      "bytes": 1010,
+      "storage": "git",
+      "sha256": "5e51749101384397992a25bc5291d14eb238b6b785a0fd60bb27a2f277c147c7"
+    },
+    {
+      "path": "For metric validation/Demand surge scenario/demand.csv",
+      "bytes": 8262,
+      "storage": "git",
+      "sha256": "6168c6ec29fc33376ccd32380a4ee34f40de70b86b867207f096ab755007f941"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Baseline supply drop/16-45.csv",
+      "bytes": 1048,
+      "storage": "git",
+      "sha256": "934c2e8c0da72c8dcaa16ed2c02dd379f10cc2367e51a628a0dc4533a7a0aff8"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Baseline supply drop/17-45.csv",
+      "bytes": 1047,
+      "storage": "git",
+      "sha256": "003884f38c7559168f9c4d4ed054d6dbd7884454c0569a105011490f81ffb2a3"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Baseline supply drop/18-45.csv",
+      "bytes": 1010,
+      "storage": "git",
+      "sha256": "3864140aa32d204c672c09189d00f49095c7e7ba6554c2776ead7065cbcad029"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Baseline supply drop/19-45.csv",
+      "bytes": 1047,
+      "storage": "git",
+      "sha256": "b20ba3f83db8091e12bafbd40702f5e95324a50ea7dc9cd2e18cc016e3085f2b"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Baseline supply drop/20-45.csv",
+      "bytes": 1064,
+      "storage": "git",
+      "sha256": "8a43187e053c66e7b696faed02790e55ffb170d80d4892f56095519530209b7c"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Baseline supply drop/21-45.csv",
+      "bytes": 1048,
+      "storage": "git",
+      "sha256": "4047497a04ab6d8d93315a82319330bc84acc98a6d43943158574f63a18f077f"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal response/16-45.csv",
+      "bytes": 1043,
+      "storage": "git",
+      "sha256": "402a0944163bc685cbe967b4f50b545cc079db31c2332f22bb7814fccc5a8d05"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal response/17-15.csv",
+      "bytes": 1043,
+      "storage": "git",
+      "sha256": "402a0944163bc685cbe967b4f50b545cc079db31c2332f22bb7814fccc5a8d05"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal response/17-45.csv",
+      "bytes": 1029,
+      "storage": "git",
+      "sha256": "f6daa202d77c175da94aac4c392f1ba5ccc1671b734b05fbfcd9bec00d69f64c"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal response/18-15.csv",
+      "bytes": 1002,
+      "storage": "git",
+      "sha256": "a0282953468fba4cb835de97a5d6cab46741246596f95398508f0502d7eef8a6"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal response/18-45.csv",
+      "bytes": 1009,
+      "storage": "git",
+      "sha256": "f63911aa4093fe694de2afab88ba61a8454921da1e05aadf80f3048542c0c81e"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal response/19-15.csv",
+      "bytes": 1053,
+      "storage": "git",
+      "sha256": "ed3a704f2abfefc8cee784c164e66f98f51c19f7b7ef5f5a8fb25f737e45f21f"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal response/19-45.csv",
+      "bytes": 1050,
+      "storage": "git",
+      "sha256": "8f2a9b5ed923a4510fd1dea80cd5b59ea46aec7536fefb7126487fd5f2ab050a"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal response/20-15.csv",
+      "bytes": 1045,
+      "storage": "git",
+      "sha256": "52dee16e0d5b9833f61b0ba68165e9844f260277457002a3124771ebfe80049e"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal response/20-45.csv",
+      "bytes": 1055,
+      "storage": "git",
+      "sha256": "0331c6bb2a7fb5aa0cab93545671d6e1246d4d03a6285a31a135adf0dc3f4910"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal response/21-15.csv",
+      "bytes": 1048,
+      "storage": "git",
+      "sha256": "4047497a04ab6d8d93315a82319330bc84acc98a6d43943158574f63a18f077f"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal with variable lane/16-45.csv",
+      "bytes": 1052,
+      "storage": "git",
+      "sha256": "71fc26883f098112a3721e1310c3e8b3650a6d77647e85c1eb0a7768d0837691"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal with variable lane/17-15.csv",
+      "bytes": 1052,
+      "storage": "git",
+      "sha256": "71fc26883f098112a3721e1310c3e8b3650a6d77647e85c1eb0a7768d0837691"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal with variable lane/17-45.csv",
+      "bytes": 1044,
+      "storage": "git",
+      "sha256": "aa4e1a0cbbe279b58a8ea4fafc4a48c9fe213a955ead38fe23d5c4bdd9457da4"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal with variable lane/18-15.csv",
+      "bytes": 1012,
+      "storage": "git",
+      "sha256": "88386e34736e410aefba0ef715b3ab781c182a9c70b4b8a22e983d6a6a72be08"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal with variable lane/18-45.csv",
+      "bytes": 1044,
+      "storage": "git",
+      "sha256": "cb49d987113b7544fd812820eff35811226254201ccff3c54811a0eb62e7bffb"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal with variable lane/19-15.csv",
+      "bytes": 1040,
+      "storage": "git",
+      "sha256": "b6eb2c2b6fdadb82b2d752b77421fb7fb04d7b2d6218efce1317a7b0fb87f9a2"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal with variable lane/19-45.csv",
+      "bytes": 1051,
+      "storage": "git",
+      "sha256": "a28a548816f1e41c7a9ddb200b216deb404e0cccc7ecedaec177e1e5058d2692"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal with variable lane/20-15.csv",
+      "bytes": 1041,
+      "storage": "git",
+      "sha256": "17611d8032521297713e704c55a7d2d2fc60ed14c6619dc29cb7f68867560ca2"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal with variable lane/20-45.csv",
+      "bytes": 1044,
+      "storage": "git",
+      "sha256": "ca5e2604110deeebdf1ae076868e450501a9b6e887034b971c03deab78bdbdba"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/Faster signal with variable lane/21-15.csv",
+      "bytes": 1064,
+      "storage": "git",
+      "sha256": "5696835f22a64f39aef86f30304abf9de9267e2333cbc809302bca521f4eb180"
+    },
+    {
+      "path": "For metric validation/Supply drop scenraio/demand.csv",
+      "bytes": 10732,
+      "storage": "git",
+      "sha256": "16bfe6c05bf22d753702d949e2e3442297299f3fade84bc6852a57b32f7c65aa"
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 164/original_vehicle_trajectory_data.zip",
+      "bytes": 1013073490,
+      "storage": "release",
+      "compression": "none",
+      "sha256": "3e3ae406d2aacd237e1e45a6a7e075334ae85316307cd449407f58bac9fdb521",
+      "assets": [
+        {
+          "name": "intersection_164__original_vehicle_trajectory_data.zip",
+          "bytes": 1013073490,
+          "sha256": "3e3ae406d2aacd237e1e45a6a7e075334ae85316307cd449407f58bac9fdb521"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 164/orignal_signal_scheme_data.zip",
+      "bytes": 7563606,
+      "storage": "release",
+      "compression": "none",
+      "sha256": "66cf9656d10a6853b7a7a333adfb38780dcbca8ac76091eec9135a672fa8b157",
+      "assets": [
+        {
+          "name": "intersection_164__orignal_signal_scheme_data.zip",
+          "bytes": 7563606,
+          "sha256": "66cf9656d10a6853b7a7a333adfb38780dcbca8ac76091eec9135a672fa8b157"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 164/processed_signal_data.csv",
+      "bytes": 687312,
+      "storage": "git",
+      "sha256": "47a4ccd50e3748199356928d056a43fbaf8e065d69247d7e78af2bf3723ed9fe"
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 164/processed_trajectory_data_with_lane_match.csv",
+      "bytes": 1583703589,
+      "storage": "release",
+      "compression": "gzip",
+      "sha256": "94aa2ef2b7e24a175498903a66f09f4c308830d687b9ca2155e1b42762ec3237",
+      "assets": [
+        {
+          "name": "intersection_164__processed_trajectory_data_with_lane_match.csv.gz",
+          "bytes": 226073541,
+          "sha256": "c74c3d5008824059e46519f4c3a14b51719cb4f62f8327063278146527c36da8"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 170/original_vehicle_trajectory_data.zip",
+      "bytes": 2305074928,
+      "storage": "release",
+      "compression": "none",
+      "sha256": "88c77d53bcd2bd00f5d7f78fdc2f3e877a94e67731b27f84081dde031d852f5c",
+      "assets": [
+        {
+          "name": "intersection_170__original_vehicle_trajectory_data.zip.part001",
+          "bytes": 1900000000,
+          "sha256": "dd3637f37e41855f9733b4cb6fbac4760540315113759e4ab033d8f1bd8e1186"
+        },
+        {
+          "name": "intersection_170__original_vehicle_trajectory_data.zip.part002",
+          "bytes": 405074928,
+          "sha256": "de5ca8e964fc2ff43b760a17a7fc17f7177399ac02f541cc4b09093b327f0609"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 170/orignal_signal_scheme_data.zip",
+      "bytes": 109046183,
+      "storage": "release",
+      "compression": "none",
+      "sha256": "905c703c536fb00ce355dfe1a704189cb2d37d3e435db3482beb320219967770",
+      "assets": [
+        {
+          "name": "intersection_170__orignal_signal_scheme_data.zip",
+          "bytes": 109046183,
+          "sha256": "905c703c536fb00ce355dfe1a704189cb2d37d3e435db3482beb320219967770"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 170/processed_signal_data.csv",
+      "bytes": 687150,
+      "storage": "git",
+      "sha256": "f6a193a1cc41585821a7b8d42c2e9f36925901e2766101ec7e1097f4b6f5f631"
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 170/processed_trajectory_data_with_lane_match.csv",
+      "bytes": 3540724376,
+      "storage": "release",
+      "compression": "gzip",
+      "sha256": "64ca9700b928c5eb9e6256317479f32afe33648351a5e811f2b431cf54bcf05a",
+      "assets": [
+        {
+          "name": "intersection_170__processed_trajectory_data_with_lane_match.csv.gz",
+          "bytes": 486707346,
+          "sha256": "471089ebd74a94df91f445a26fd1cb545d82677c6f5ff4a86992dc6915fd316d"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 256/original_vehicle_trajectory_data.zip",
+      "bytes": 2718642812,
+      "storage": "release",
+      "compression": "none",
+      "sha256": "b6bbe406e58a07f13d214c9f4d35fc90f2436df97d1ee8cf8c7e07eed9a4a7a2",
+      "assets": [
+        {
+          "name": "intersection_256__original_vehicle_trajectory_data.zip.part001",
+          "bytes": 1900000000,
+          "sha256": "e8f43462c81008a4af7f5bbb8922bd1198f722e8d84eb3a39c0ccd7bd6bc70a5"
+        },
+        {
+          "name": "intersection_256__original_vehicle_trajectory_data.zip.part002",
+          "bytes": 818642812,
+          "sha256": "da18d9588ba1680063001a3d4b20012881ddfd0217d36886a36bae7e18183cab"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 256/orignal_signal_scheme_data.zip",
+      "bytes": 118587635,
+      "storage": "release",
+      "compression": "none",
+      "sha256": "78a218abb9f5274bec16208458572f8aa217aca7719004c49940808ef05415bb",
+      "assets": [
+        {
+          "name": "intersection_256__orignal_signal_scheme_data.zip",
+          "bytes": 118587635,
+          "sha256": "78a218abb9f5274bec16208458572f8aa217aca7719004c49940808ef05415bb"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 256/processed_signal_data.csv",
+      "bytes": 636115,
+      "storage": "git",
+      "sha256": "35cb34ca526074eb6f83181310f59bae017ad3f30cae58c7f4fd1b89b195790c"
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 256/processed_trajectory_data_with_lane_match.csv",
+      "bytes": 4350021032,
+      "storage": "release",
+      "compression": "gzip",
+      "sha256": "94aa4336fd7cc99bddac888f7018cf9e6195476e4505a63c5536837331bfed0b",
+      "assets": [
+        {
+          "name": "intersection_256__processed_trajectory_data_with_lane_match.csv.gz",
+          "bytes": 574918927,
+          "sha256": "5852f111029993292668bc485df935f480e2a94e1a3d7354067e4b9a7c802f71"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 257/original_vehicle_trajectory_data.zip",
+      "bytes": 2743717946,
+      "storage": "release",
+      "compression": "none",
+      "sha256": "2aebf3641c15ce8f2f2d1618b3f3f8ecaabbba1ee4157c89a2ce9d6b0e94a6e1",
+      "assets": [
+        {
+          "name": "intersection_257__original_vehicle_trajectory_data.zip.part001",
+          "bytes": 1900000000,
+          "sha256": "09b718f863d9c6257bec172358758f40f8297b48f2d75be473b0a41ac74fa3c5"
+        },
+        {
+          "name": "intersection_257__original_vehicle_trajectory_data.zip.part002",
+          "bytes": 843717946,
+          "sha256": "0f92fcc8209d2e37f398cdde9c177e5069a9dc3c09afd6dfb2d76503face786a"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 257/orignal_signal_scheme_data.zip",
+      "bytes": 99798691,
+      "storage": "release",
+      "compression": "none",
+      "sha256": "dc97ebf8fe63bb6d6a6a5f79591213d042bff67246ea667d8a90976907ceb1f2",
+      "assets": [
+        {
+          "name": "intersection_257__orignal_signal_scheme_data.zip",
+          "bytes": 99798691,
+          "sha256": "dc97ebf8fe63bb6d6a6a5f79591213d042bff67246ea667d8a90976907ceb1f2"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 257/processed_signal_data.csv",
+      "bytes": 619766,
+      "storage": "git",
+      "sha256": "925d2be2bd6ca01504b88b4a3d9145ef5e45ee0e823c4aa642206672928e9ab0"
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 257/processed_trajectory_data_with_lane_match.csv",
+      "bytes": 4099730928,
+      "storage": "release",
+      "compression": "gzip",
+      "sha256": "cc4984af559d4a9571c8c041553e3b83dc094327f17420a93c39ed3fec204858",
+      "assets": [
+        {
+          "name": "intersection_257__processed_trajectory_data_with_lane_match.csv.gz",
+          "bytes": 570590563,
+          "sha256": "7755153da24af3d9a9ea383e84ebd2638b248c0dc4fc7e2d8376ad18dbbf9d44"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 57/original_vehicle_trajectory_data.zip",
+      "bytes": 332208445,
+      "storage": "release",
+      "compression": "none",
+      "sha256": "02e6b61f2759fdf914dc756ee4f2afbf9866af8653c645710c74f6f93d920cdd",
+      "assets": [
+        {
+          "name": "intersection_57__original_vehicle_trajectory_data.zip",
+          "bytes": 332208445,
+          "sha256": "02e6b61f2759fdf914dc756ee4f2afbf9866af8653c645710c74f6f93d920cdd"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 57/orignal_signal_scheme_data.zip",
+      "bytes": 65475785,
+      "storage": "release",
+      "compression": "none",
+      "sha256": "83fa6b8f79d7df6af61786e6fa43a1d700bc7037208d99d887f5cdb0e9759d58",
+      "assets": [
+        {
+          "name": "intersection_57__orignal_signal_scheme_data.zip",
+          "bytes": 65475785,
+          "sha256": "83fa6b8f79d7df6af61786e6fa43a1d700bc7037208d99d887f5cdb0e9759d58"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 57/processed_signal_data.csv",
+      "bytes": 359171,
+      "storage": "git",
+      "sha256": "fcf5a403d7c52e67ea80302d26b620b68763915ac04af48e013a719996e342c3"
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 57/processed_trajectory_data_with_lane_match.csv",
+      "bytes": 563175900,
+      "storage": "release",
+      "compression": "gzip",
+      "sha256": "cf72d2413178384135ca6f98abcf883a95c07d53271235c9d31e2dfed2364c0d",
+      "assets": [
+        {
+          "name": "intersection_57__processed_trajectory_data_with_lane_match.csv.gz",
+          "bytes": 75687030,
+          "sha256": "39e4f5007f761d08d61cf0024cbaf56821ff8a012bf6177d389ca4a92db09f7a"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 67/original_vehicle_trajectory_data.zip",
+      "bytes": 1678777994,
+      "storage": "release",
+      "compression": "none",
+      "sha256": "864d7f9e023e18f2ebc7cd573b229221e675b86f7286535e745da4658fb14c17",
+      "assets": [
+        {
+          "name": "intersection_67__original_vehicle_trajectory_data.zip",
+          "bytes": 1678777994,
+          "sha256": "864d7f9e023e18f2ebc7cd573b229221e675b86f7286535e745da4658fb14c17"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 67/orignal_signal_scheme_data.zip",
+      "bytes": 70593367,
+      "storage": "release",
+      "compression": "none",
+      "sha256": "9a522cfc11090cef0ac8fa31068e2a57ff2771449c8a517b0a51252c548b7aa5",
+      "assets": [
+        {
+          "name": "intersection_67__orignal_signal_scheme_data.zip",
+          "bytes": 70593367,
+          "sha256": "9a522cfc11090cef0ac8fa31068e2a57ff2771449c8a517b0a51252c548b7aa5"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 67/processed_signal_data.csv",
+      "bytes": 580306,
+      "storage": "git",
+      "sha256": "214e8118cfd8d4a648eb0241d7ef62ec934e2bb33967fce7368210fb161190b6"
+    },
+    {
+      "path": "Real-wolrd case study/Intersection 67/processed_trajectory_data_with_lane_match.csv",
+      "bytes": 2552380635,
+      "storage": "release",
+      "compression": "gzip",
+      "sha256": "640185532c3ced5977a131f7a9ac675ec29ece30e729c49fa32c741e609ed371",
+      "assets": [
+        {
+          "name": "intersection_67__processed_trajectory_data_with_lane_match.csv.gz",
+          "bytes": 364735685,
+          "sha256": "79e4ef83fd472757522d22df5060089c5287b212257545d00620377c6eb9afc7"
+        }
+      ]
+    },
+    {
+      "path": "Real-wolrd case study/signal_data_description.csv",
+      "bytes": 9556,
+      "storage": "git",
+      "sha256": "6a5998f43ef386e4be00ffd716eef44c0d24314178df59400fe11834d0152769"
+    },
+    {
+      "path": "Real-wolrd case study/signal_data_dictionary.csv",
+      "bytes": 4404,
+      "storage": "git",
+      "sha256": "e8ea0d6d55581cd8b08219d37688f6a19bee62f7e68e124ec7cd50da075201bc"
+    },
+    {
+      "path": "Real-wolrd case study/trajectory_data_dictionary.csv",
+      "bytes": 1540,
+      "storage": "git",
+      "sha256": "57868b2faf01304ebebd9c2976472cb537d690e68ada57d3b169518ad8e674d6"
+    }
+  ],
+  "original_total_bytes": 27955957206,
+  "release_asset_total_bytes": 13561273974
+}

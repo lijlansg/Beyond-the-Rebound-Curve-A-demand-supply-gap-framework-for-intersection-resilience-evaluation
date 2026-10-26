@@ -1,0 +1,27 @@
+﻿record_type,field_path,field_name,source_type,meaning,required,unit,valid_values,notes
+field,msgType,msgType,JSON_STRING,消息类型,固定,,spat,
+field,msgCnt,msgCnt,JSON_INT,消息计数器,必填,,0..127,原文注明该实现暂固定为127；不将此实现备注作为所有数据的通用约束。
+field,uuid,uuid,JSON_STRING,消息唯一编号,必填,,36位随机字符串,
+field,timestamp,timestamp,JSON_TIMESTAMP_UTC,平台发出该帧数据的时间戳,必填,,,原文类型指明UTC，未明确时间戳数值单位。
+field,intersections,intersections,JSON_ARRAY,路口信号状态列表,必填,,1..32个路口,intersections[]表示其中一个路口对象。
+field,customObj,customObj,JSONOBJECT,自定义字段,未注明,,,原表未给出内部结构。
+field,intersections[].regionId,regionId,JSON_INT,路口所在区域的编号,必填,,0..59999,
+field,intersections[].nodeId,nodeId,JSON_INT,路口在该区域内的唯一编号,必填,,0..65535,
+field,intersections[].status,status,JSON_INT,路口信号机工作状态标志,必填,,,原文列出bit5为固定相位、bit8为当前数据失效、bit9为路口设备关闭。原文十进制32与所列固定相位二进制不一致；位编号约定及掩码需另行核实，不在此静默纠正。
+field,intersections[].intersectionTimestamp,intersectionTimestamp,JSON_TIMESTAMP_UTC,从信号机获取该字段信息的系统时间戳,必填,毫秒精度,,与外层平台发帧时间戳含义不同；原文未说明具体序列化格式。
+field,intersections[].phases,phases,JSON_ARRAY,该路口的相位列表,必填,,1..16个相位,
+field,intersections[].phases[].phaseId,phaseId,JSON_INT,信号灯相位编号,必填,,0..255,方向与转向含义见独立的相位映射说明；此表不包含任何实际路口标识。
+field,intersections[].phases[].phaseStates,phaseStates,JSON_ARRAY,该相位的灯色状态列表,必填,,1..16个状态,
+field,intersections[].phases[].phaseStates[].light,light,JSON_INT,信号灯颜色状态编码,必填,,0..8,各取值见本表light_enum记录。
+field,intersections[].phases[].phaseStates[].startTime,startTime,JSON_INT,当前正处于该状态时为0；否则表示距下一次进入该状态的时间或预测开始时间,必填,0.1 s/编码单位,0..36001,原始编码乘以0.1得到秒；36000表示1小时以上，36001表示失效。两个特殊编码应先识别，再进行数值换算。
+field,intersections[].phases[].phaseStates[].likelyEndTime,likelyEndTime,JSON_INT,处于当前状态时表示距该状态结束的时间；否则原文描述为下一次该状态的固定或预测时长,必填,0.1 s/编码单位,0..36001,原始编码乘以0.1得到秒；36000表示1小时以上，36001表示失效。两个特殊编码应先识别，再进行数值换算。 字段名称与非当前状态的原文描述并非完全对应，保留原义，未改写为绝对时刻。
+field,intersections[].phases[].phaseStates[].nextDuration,nextDuration,JSON_INT,该状态第二次出现时的固定或预测持续时长；固定相位情况下为当前灯色状态的固定时长,必填,0.1 s/编码单位,0..36001,原始编码乘以0.1得到秒；36000表示1小时以上，36001表示失效。两个特殊编码应先识别，再进行数值换算。
+light_enum,intersections[].phases[].phaseStates[].light,light,JSON_INT,未知状态,,,0,Unavailable。
+light_enum,intersections[].phases[].phaseStates[].light,light,JSON_INT,信号灯未工作,,,1,Dark。
+light_enum,intersections[].phases[].phaseStates[].light,light,JSON_INT,红闪,,,2,stop-Then-Proceed。
+light_enum,intersections[].phases[].phaseStates[].light,light,JSON_INT,红灯状态,,,3,stop-And-Remain。
+light_enum,intersections[].phases[].phaseStates[].light,light,JSON_INT,绿灯待行状态（红末闪烁）,,,4,pre-Movement。
+light_enum,intersections[].phases[].phaseStates[].light,light,JSON_INT,绿灯状态,,,5,permissive-Movement-Allowed。
+light_enum,intersections[].phases[].phaseStates[].light,light,JSON_INT,受保护相位绿灯（箭头灯）,,,6,protected-Movement-Allowed。原文另附“绿闪”备注；未将编码6直接改定义为绿闪。
+light_enum,intersections[].phases[].phaseStates[].light,light,JSON_INT,黄灯状态,,,7,intersection-clearance。
+light_enum,intersections[].phases[].phaseStates[].light,light,JSON_INT,黄闪,,,8,caution-Conflicting-Traffic。
